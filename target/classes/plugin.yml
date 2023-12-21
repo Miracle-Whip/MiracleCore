@@ -1,0 +1,9 @@
+name: MiracleCore
+version: '1.0-SNAPSHOT'
+main: miracle.whip.miraclecore.MiracleCore
+api-version: '1.20'
+
+commands:
+  main:
+    description: Opens the help-main panel
+    usage: /<command>
