@@ -2,8 +2,10 @@ name: MiracleCore
 version: '${project.version}'
 main: miracle.whip.miraclecore.MiracleCore
 api-version: '1.20'
+softdepend:
+  - Essentials
 
 commands:
-  main:
+  help:
     description: Opens the help-main panel
     usage: /<command>
